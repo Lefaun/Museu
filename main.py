@@ -19,7 +19,7 @@ with col3:
    st.image("4foto.png")
 
 
-video_file = open('/Museu/video2.mp4', 'rb')
+video_file = open('video2.mp4', 'rb')
 video_bytes = video_file.read()
 
 st.video(video_bytes)
