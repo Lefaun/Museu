@@ -7,7 +7,7 @@ st.markdown(
    f”””
    <style>
    p {
-   background-image: url(‘back.png’);
+   background-image: url(‘Screenshot 2023-02-22 at 17.40.37.png’);
    }
    </style>
    ”””,
