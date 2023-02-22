@@ -4,13 +4,13 @@ import streamlit as st
 
 import streamlit.components.v1 as components
 st.markdown(
-   f”””
+
    <style>
    p {
    background-image: url(‘Screenshot 2023-02-22 at 17.40.37.png’);
    }
    </style>
-   ”””,
+  
    unsafe_allow_html=True)
 st.title("Museu Virtual da Arte Urbana - AMadora")
 
