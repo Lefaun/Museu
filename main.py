@@ -3,6 +3,15 @@
 import streamlit as st
 
 import streamlit.components.v1 as components
+st.markdown(
+   f”””
+   <style>
+   p {
+   background-image: url(‘back.png’);
+   }
+   </style>
+   ”””,
+   unsafe_allow_html=True)
 st.title("Museu Virtual da Arte Urbana - AMadora")
 
 col1, col2, col3 = st.columns(3)
