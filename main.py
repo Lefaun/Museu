@@ -19,10 +19,11 @@ with col3:
    st.image("4foto.png")
 
 
-video_file = open('/Museu/video.mov', 'rb')
+video_file = open('/Museu/video2.mp4', 'rb')
 video_bytes = video_file.read()
 
 st.video(video_bytes)
-
-components.iframe("https://v3d.net/fbi", width=1800, height=600)
-st.markdown(components.iframe, unsafe_allow_html=True)
+col1 = st.columns(1)
+with col1:
+   components.iframe("https://v3d.net/fbi", width=1800, height=600)
+   st.markdown(components.iframe, unsafe_allow_html=True)
