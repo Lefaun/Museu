@@ -25,7 +25,7 @@ def set_background(png_file):
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-set_background('./images/background.png')
+set_background('Screenshot 2023-02-22 at 17.40.37.png')
 
 st.title("Museu Virtual da Arte Urbana - AMadora")
 
