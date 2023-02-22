@@ -23,7 +23,8 @@ video_file = open('video2.mp4', 'rb')
 video_bytes = video_file.read()
 
 st.video(video_bytes)
-col1 = st.columns(1)
+col1, col2 = st.columns(2)
+
 with col1:
    components.iframe("https://v3d.net/fbi", width=1800, height=600)
    st.markdown(components.iframe, unsafe_allow_html=True)
