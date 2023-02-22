@@ -44,5 +44,5 @@ st.video(video_bytes)
 col1, col2 = st.columns(2)
 
 with col1:
-   components.iframe("https://v3d.net/fej", width=1800, height=600)
+   components.iframe("https://v3d.net/fej", width=800, height=600)
    st.markdown(components.iframe, unsafe_allow_html=True)
